@@ -146,7 +146,7 @@ div[data-testid="stExpander"] summary { color: var(--text) !important; }
 #  SESSION STATE
 # ─────────────────────────────────────────────
 if "app_name"   not in st.session_state: st.session_state.app_name   = "AquaChem IKA"
-if "group_name" not in st.session_state: st.session_state.group_name = "Kelompok Anda"
+if "group_name" not in st.session_state: st.session_state.group_name = "Kelompok 4"
 if "group_desc" not in st.session_state: st.session_state.group_desc = "Deskripsi kelompok belum diisi."
 if "web_desc"   not in st.session_state: st.session_state.web_desc   = "Aplikasi analisis kualitas air berdasarkan parameter kimia pH, BOD, dan COD sesuai PP No. 22 Tahun 2021."
 
